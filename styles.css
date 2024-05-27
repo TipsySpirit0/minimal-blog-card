@@ -1,0 +1,53 @@
+body {
+  background-color: #fafaf9;
+  font-family: Sora;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 1.125rem;
+}
+
+p {
+  font-size: 0.875rem;
+  color: #6c727f;
+}
+
+.pill-text {
+  color: #883ae1;
+}
+
+.footer-text{
+    font-size: 0.75rem;
+}
+
+.container {
+  margin: 20vh auto;
+  max-width: fit-content;
+  max-height: fit-content;
+  width: 20%;
+  height: auto;
+  background-color: #ffffff;
+  border-radius: 3%;
+  padding: 1rem;
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 3%;
+}
+
+.pill {
+  max-width: fit-content;
+  background-color: #e6d6fc;
+  padding: 0 0.5rem;
+  border-radius: 16px;
+  font-size: 0.625rem;
+  margin: 4px 2px;
+  font-style: bold;
+  text-align: center;
+}
