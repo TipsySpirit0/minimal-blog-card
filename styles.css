@@ -51,3 +51,17 @@ img {
   font-style: bold;
   text-align: center;
 }
+
+@media (max-width: 640px){
+  .container {
+    margin: 20vh auto;
+    max-width: fit-content;
+    max-height: fit-content;
+    width: 50%;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 3%;
+    padding: 1rem;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+  }
+}
