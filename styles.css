@@ -1,5 +1,5 @@
 body {
-  background-color: #fafaf9;
+  background-color: #eaeaea;
   font-family: Sora;
   display: flex;
   justify-content: center;
@@ -19,8 +19,8 @@ p {
   color: #883ae1;
 }
 
-.footer-text{
-    font-size: 0.75rem;
+.footer-text {
+  font-size: 0.75rem;
 }
 
 .container {
@@ -29,7 +29,8 @@ p {
   max-height: fit-content;
   width: 20%;
   height: auto;
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(20px);
   border-radius: 3%;
   padding: 1rem;
   box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
@@ -52,7 +53,7 @@ img {
   text-align: center;
 }
 
-@media (max-width: 640px){
+@media (max-width: 640px) {
   .container {
     margin: 20vh auto;
     max-width: fit-content;
